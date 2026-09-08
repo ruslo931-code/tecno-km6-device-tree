@@ -156,3 +156,8 @@ TWRP_INCLUDE_LOGCAT := true
 
 # Minimal manifest workaround
 ALLOW_MISSING_DEPENDENCIES := true
+
+# Backlight path (MediaTek lcd-backlight, confirmed from dtbo)
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 162
