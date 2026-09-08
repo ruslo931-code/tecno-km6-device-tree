@@ -21,7 +21,10 @@ AB_OTA_PARTITIONS += \
     boot \
     system \
     odm_dlkm \
-    system_ext
+    system_ext \
+    dtbo \
+    vendor_boot \
+    vbmeta
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
